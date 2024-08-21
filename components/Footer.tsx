@@ -10,7 +10,7 @@ const Footer = () => {
           @2024 Car Dealer App. All rights reserved
         </p>
 
-        <div className="footer__copyrights-link">
+        <div className="footer__link">
           <Link href="/" className="text-gray-500">
             Privacy Policy
           </Link>

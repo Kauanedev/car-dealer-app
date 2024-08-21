@@ -12,7 +12,7 @@ const VehicleList = ({ vehicles }: { vehicles: VehicleTypesProps[] }) => {
           key={`${vehicle.MakeId}-${vehicle.ModelId}`}
           className="bg-white p-4 rounded shadow-md hover:shadow-lg transition-shadow"
         >
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between items-center m-2 gap-4">
             <h2 className="text-lg font-semibold">
               {vehicle.MakeName} {vehicle.ModelName}
             </h2>

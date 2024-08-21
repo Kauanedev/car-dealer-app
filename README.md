@@ -1,36 +1,115 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Car Dealer App 
 
-## Getting Started
+<p align="center">
+	<img alt="Nextjs" src="https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white">
+	<img alt="React" src="https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react">
+	<img alt="Tailwind" src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white">
+	<img alt="Typescript"  src = "https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white"/>  
+	<img alt=".env"  src = "https://img.shields.io/badge/.ENV-ECD53F.svg?style=for-the-badge&logo=dotenv&logoColor=black"/>  
+	<img alt="Prettier"  src = "https://img.shields.io/badge/Prettier-F7B93E.svg?style=for-the-badge&logo=Prettier&logoColor=black"/>  
+	<img alt="Eslint"  src = "https://img.shields.io/badge/ESLint-4B32C3.svg?style=for-the-badge&logo=ESLint&logoColor=white"/>  
 
-First, run the development server:
+</p>
 
+<div align="center">
+    <img alt="HOME PAGE" title="#HOME PAGE" src="assets\homePage.png" />
+</div>
+
+
+<h4 align="center"> 
+🚗 Car Dealer App 💸
+</h4>
+
+<p align="center">
+<a href="#about">About</a> •
+<a href="#functionalities">Functionalities</a> •
+<a href="#run">Run the project</a> •
+<a href="tecnologies">Tecnolgies<a/> •
+<a href="#license">License</a>
+</p>
+
+<br/>
+<br/>
+
+## 🚗 About the project
+<p id="about">
+This project is a web application built with Next.js and TypeScript that allows users to explore a catalog of vehicles. The application provides a user-friendly interface where users can select a vehicle type and model year to view a list of available car models.
+</p>
+
+
+<p id="functionalities">
+
+ ## ⚙️ Functionalities
+</p>
+
+
+- Select a vehicle type and model year from dropdown menus
+- The next button navigates users to a results page based on their selection.
+- Responsive Design
+
+
+### Web
+  
+  <h1 align="center">
+   <img alt="dropdown" src="assets\dropdown.png" />
+</h1>
+  <h1 align="center">
+   <img alt="Results Page" src="assets\resultPage.png" />
+</h1>
+
+
+<p id="run">
+  
+## 🏃‍♀️ Run the project
+</p>
+
+### 🎲 Run Backend
+💡 try the deployed version: https://backend-devastados.vercel.app/
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+ 
+# Clone this repository:
+$ git clone git@github.com:Kauanedev/car-dealer-app.git
+
+# Install dependencies:
+$ npm install
+
+# Run the app in the development mode
+$ npm run dev
+
+# Server will start on port:3000
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p id="tecnologies">
+  
+  ## 🛠 Tecnologies 
+</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### **Web** 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+-   Next.js: **[Next.js Documentation](https://nextjs.org/docs)**
+-   React.js: **[React](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)**
+-   React Suspense: **[React Suspense](https://react.dev/reference/react/Suspense)**
+-   Typescript: **[Typescript](https://www.typescriptlang.org/)**
+-   Tailwind Css: **[Tailwind](https://tailwindcss.com/docs)**
+-   Node.js: **[NodeJS](https://nodejs.org/en/)**
+-   .Env: **[dotENV](https://github.com/motdotla/dotenv)**
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+#### **Utilities** 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   API Docs: **[API Docs]([https://backend-devastados.vercel.app/](https://vpic.nhtsa.dot.gov/api/?ref=public_apis))**
+-   Prettier: **[API Docs]([https://backend-devastados.vercel.app/](https://vpic.nhtsa.dot.gov/api/?ref=public_apis))**
+-   Source-Code Editor:  **[Visual Studio Code](https://code.visualstudio.com/)** 
+-   Fonts:  **[Manrope](https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap)**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+<br/>
+<br/>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+Made with 💓 by Kauane Santos 👋 [Contact me!](https://www.linkedin.com/in/kauane-santos-dev/)
+
+

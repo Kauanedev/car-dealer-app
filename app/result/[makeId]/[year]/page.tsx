@@ -75,6 +75,13 @@ export default async function ResultPage({
 
   const vehicles = await fetchVehicles(makeId, year);
 
+  const formatVehicles = vehicles.map((vehicle: any) => ({
+    MakeId: vehicle.Make_ID,
+    MakeName: vehicle.Make_Name,
+    ModelId: vehicle.Model_ID,
+    ModelName: vehicle.Model_Name,
+  }));
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <h1 className="text-4xl font-bold mb-6">Vehicle Models</h1>
@@ -86,7 +93,7 @@ export default async function ResultPage({
           </div>
         }
       >
-        <VehicleList vehicles={vehicles} />
+        <VehicleList vehicles={formatVehicles} />
       </Suspense>
     </div>
   );

@@ -13,6 +13,7 @@ export interface SearchVehicleTypesProps {
 }
 export interface VehicleTypesProps {
   ModelId: string;
+  MakeId: string;
   MakeName: string;
   ModelName: string;
 }

@@ -63,8 +63,6 @@ This project is a web application built with Next.js and TypeScript that allows 
 ## 🏃‍♀️ Run the project
 </p>
 
-### 🎲 Run Backend
-💡 try the deployed version: https://backend-devastados.vercel.app/
 ```bash
 
  
@@ -106,10 +104,20 @@ $ npm run dev
 
 
 <br/>
+
+<p id="license">
+	
+## 📝 Licese
+</p>
+
+This project is under license [MIT](./LICENSE).
+
 <br/>
-
-
-
-Made with 💓 by Kauane Santos 👋 [Contact me!](https://www.linkedin.com/in/kauane-santos-dev/)
+Made with 💓 by Kauane Santos 👋
+<br/>
+<br/>
+<a href="https://www.linkedin.com/in/kauane-santos-2b1b7b270/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<a/>
 
 

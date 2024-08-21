@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import { VehicleList } from "../../../../components";
+import { VehicleList } from "../components";
 
 async function fetchAllVehicles() {
   try {

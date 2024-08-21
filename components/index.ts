@@ -1,8 +1,8 @@
-import Hero from "./Hero";
 import CustomButton from "./CustomButton";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import SearchBar from "./SearchBar";
 import CustomFilter from "./CustomFilter";
+import Footer from "./Footer";
+import Hero from "./Hero";
+import Navbar from "./Navbar";
+import VehicleList from "./VehicleList";
 
-export { Hero, CustomButton, Navbar, Footer, SearchBar, CustomFilter };
+export { CustomButton, CustomFilter, Footer, Hero, Navbar, VehicleList };

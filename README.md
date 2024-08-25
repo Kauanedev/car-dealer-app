@@ -24,7 +24,7 @@
 <a href="#about">About</a> •
 <a href="#functionalities">Functionalities</a> •
 <a href="#run">Run the project</a> •
-<a href="tecnologies">Tecnolgies<a/> •
+<a href="#tecnologies">Tecnolgies<a/> •
 <a href="#license">License</a>
 </p>
 
